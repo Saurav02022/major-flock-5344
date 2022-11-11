@@ -1,0 +1,104 @@
+.container-margin {
+    margin-top: 8rem;
+}
+
+.add-new-address-button {
+    background-color: transparent;
+    color: #6D6E71;
+    border: 1px solid #6D6E71;
+    border-radius: 4px;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.address-selected-highlight {
+    border: 3px solid #689F38;
+    padding: 1rem;
+
+}
+
+.delivery-remove-address-button {
+    background-color: #F2F3F1;
+    color: #6D6E71;
+    border: 1px solid #689F38;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    font-size: 0.8rem;
+}
+
+.payment-container-buttons {
+    background-color: transparent;
+    color: #6D6E71;
+    border: 1px solid #6D6E71;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.modal-save-button {
+    background-color: #689F38;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.modal-close-button {
+    background-color: #6D6E71;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.payment-credit-input {
+    width: 50%;
+    border: 1px solid #6D6E71;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+}
+
+.place-order-button {
+    background-color: #689F38;
+    color: #fff;
+    border: none;
+    padding: 1rem;
+    font-weight: 600;
+    
+}
+
+
+.payments-para-styling {
+    color: #6D6E71;
+    font-size: 0.8rem;
+    margin-left: 0.3rem;
+}
+.checkout-section-headings-icons {
+    font-size: 0.8rem;
+    margin-right: 0.4rem;
+}
+.checkout-section-headings {
+    color: #6D6E71;
+}
+
+.delivery-options-container {
+    background-color: #e8e8ed;
+    padding: 1rem;
+}
+
+.delivery-options-icon {
+    margin-right: 0.5rem;
+}
+.delivery-options-span {
+    color: #689F38;
+    font-weight: 600;
+}
+.error-messages {
+    color: red;
+    font-size: 0.7rem;
+}

@@ -1,0 +1,116 @@
+.container-margin {
+    margin-top: 7rem;
+}
+
+
+.remove-cart-item-button {
+    background-color: #689F38;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 10rem;
+    height: 2rem;
+}
+
+.continue-shopping-button {
+    background-color: #689F38;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 10rem;
+    height: 2rem;
+}
+
+.empty-continue-cart-button {
+    background-color: #F2F3F1;
+    color: #6D6E71;
+    border: 1px solid #689F38;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+}
+
+.checkout-buton {
+    background-color: #F3CD77;
+    color: #6D6E71;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 0.8rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+}
+
+#delivery-charges-icon {
+    color: #689F38;
+    margin-left: 0.1rem;
+}
+
+.checkout-container {
+    border: 1px solid #6D6E71;
+    border-radius: 0.5rem;
+    padding: 0.6rem;
+}
+
+.image-alignment-cart {
+    margin-right: 2rem;
+}
+
+.checkout-subtotal {
+    color: #6D6E71;
+    font-size: 1rem;
+}
+.checkout-buton-icon {
+    margin-left: 0.4rem;
+}
+
+.quantity-toggle-para-cart {
+    width: 100%;
+    height: 1.5rem;
+    text-align: center;
+    background-color: #f4d489;
+    color: #6D6E71;
+    font-weight: 600;
+
+}
+
+.quantity-toggle-buttons-cart {
+    background-color: rgb(217, 211, 211);
+    color: #6D6E71;
+    width: 2rem;
+    height: 1.5rem;
+    border: none;
+}
+
+@media screen and (max-width: 400px) {
+    .quantity-toggle-para-cart {
+
+   
+        text-align: center;
+        background-color: #f4d489;
+        color: #6D6E71;
+        font-size: 0.8rem;
+    
+    }
+    
+    .quantity-toggle-buttons-cart {
+        background-color: rgb(217, 211, 211);
+        color: #6D6E71;
+
+
+        border: none;
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .total-container-width {
+        width: 100%;
+    }
+
+    .checkout-container {
+        border: 1px solid #6D6E71;
+        border-radius: 0.5rem;
+        padding: 0.6rem;
+        width: 60%;
+    }
+    
+}

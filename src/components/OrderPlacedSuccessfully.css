@@ -1,0 +1,86 @@
+.container-margin {
+    margin-top: 7rem;
+}
+
+.order-placed-heading-container {
+    background-color: #689F38;
+    color: #fff;
+    border: none;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    width: 50%;
+    font-size: 0.9rem;
+    padding: 0.3rem;
+}
+.animation-truck {
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+
+/* Table Summary */
+.table-container {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-container td, .table-container th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table-container th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #689F38;
+    color: white;
+}
+
+.table-container tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+.table-container tr:hover {
+    background-color: #ddd;
+}
+
+.order-placed-heading-container-icon {
+    margin-right: 0.5rem;
+}
+
+
+.home-button {
+    background-color: #F3CD77;
+    color: #6D6E71;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 0.8rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+}
+
+.home-button-icon {
+    margin-right: 0.2rem;
+}
+
+.order-placed-animation {
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    position: relative;
+    margin: 0 0 10px 0;
+    animation: slide-me 8s infinite;
+}
+
+
+
+@keyframes slide-me {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        left: 80%;
+    }
+}

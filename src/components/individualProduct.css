@@ -1,0 +1,46 @@
+.cart-nav {
+    color: black;
+    margin-right: 1rem;
+}
+
+.cart-nav:hover {
+    color: black;
+}
+
+
+.cart-pill {
+    background-color: red;
+    border-radius: 46%;
+    padding: 5px;
+    font-size: 0.8rem;
+} 
+
+.quantity-toggle-para {
+    width: 80%;
+    height: 1.5rem;
+    text-align: center;
+    background-color: #f4d489;
+    color: #6D6E71;
+    font-weight: 600;
+
+}
+
+.quantity-toggle-buttons {
+    background-color: rgb(217, 211, 211);
+    color: #6D6E71;
+    width: 2rem;
+    height: 1.5rem;
+    border: none;
+}
+
+@media screen and (min-width: 400px) {
+    .quantity-toggle-para {
+        width: 35%;
+        height: 1.5rem;
+        text-align: center;
+        background-color: #f4d489;
+        color: #6D6E71;
+        font-weight: 600;
+    
+    }
+}

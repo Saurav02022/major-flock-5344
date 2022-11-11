@@ -1,0 +1,101 @@
+.footer-list {
+    list-style-type: none;
+    padding: 0;
+    line-height: 2;
+    color: grey;
+}
+
+.footer-list > li {
+    font-size: 0.8rem;
+}
+
+.footer-headings {
+    color: #73D138;
+    font-size: 0.9rem;
+}
+
+.download-app-icon-container {
+    width: 9rem;
+    border-radius: 10px;
+}
+
+.download-app-heading {
+    font-size: 1rem;
+}
+
+.download-app-para {
+    font-size: 0.6rem;
+}
+
+.download-app-icons {
+    font-size: 1.5rem;
+}
+
+.social-media-icons {
+    font-size: 1.2rem;
+}
+.social-media-fb-container {
+    border-radius: 50%;
+    padding: 1rem;
+    background-color: #3B5998;
+    margin-right: 1rem;
+}
+.social-media-fb-container:hover {
+    cursor: pointer;
+    background-color: #C0C0C0;
+    border: 1px solid #3B5998;
+}
+
+.social-media-pi-container {
+    border-radius: 50%;
+    padding: 1rem;
+    background-color: #DD4B35;
+    margin-right: 1rem;
+}
+.social-media-pi-container:hover {
+    cursor: pointer;
+    background-color: #C0C0C0;
+    border: 1px solid #DD4B35;
+}
+
+.social-media-twitter-container {
+    border-radius: 50%;
+    padding: 1rem;
+    background-color: #53AEED;
+    margin-right: 1rem;
+}
+.social-media-twitter-container:hover {
+    cursor: pointer;
+    background-color: #C0C0C0;
+    border: 1px solid #53AEED;
+}
+
+.social-media-insta-container {
+    border-radius: 50%;
+    padding: 1rem;
+    background-color: #517FA4;
+    margin-right: 1rem;
+}
+
+.social-media-insta-container:hover {
+    cursor: pointer;
+    background-color: #C0C0C0;
+    border: 1px solid #517FA4;
+}
+
+.footer-categories-heading {
+    color: #73D138;
+    font-size: 0.9rem;
+}
+
+.footer-categories-para {
+    font-size: 0.7rem;
+}
+
+.footer-copyright-container {
+    background-color: rgb(242, 241, 241);
+    color: grey;
+    font-size: 0.7rem;
+    height: 1.5rem;
+}
+
