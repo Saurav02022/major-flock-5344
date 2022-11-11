@@ -48,9 +48,9 @@ class Content extends Component {
           className="carousel slide carousel-margin"
           data-bs-ride="carousel"
         >
-          <div className="carousel-inner">
+          <div className="carousel-inner" >
             <div className="carousel-item active">
-              <img src={carouselImage1} className="d-block w-100" alt="..." />
+              <img src={carouselImage1} className="d-block w-100" alt="..."  style={{marginTop:'50px'}}/>
             </div>
             <div className="carousel-item">
               <img src={carouselImage2} className="d-block w-100" alt="..." />
