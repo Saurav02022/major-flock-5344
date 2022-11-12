@@ -7,6 +7,7 @@ import { removeItemFromCart } from "../actions/action1";
 import { getQuantityFromCart } from "../actions/action1";
 import { emptyCart } from "../actions/action1";
 import "./cart.css";
+import PrivateRoute from "../Context/PrivateRoute";
 
 class cart extends Component {
  
