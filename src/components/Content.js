@@ -38,6 +38,7 @@ import carouselImage35 from "../images/MainCarousel/bs5.webp";
 import carouselImage36 from "../images/MainCarousel/bs6.webp";
 import { NavLink } from "react-router-dom";
 
+
 class Content extends Component {
 
   render() {

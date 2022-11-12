@@ -10,7 +10,7 @@ import cart from './components/cart';
 import Checkout from './components/Checkout';
 import OrderPlacedSuccessfully from './components/OrderPlacedSuccessfully';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-
+import PrivateRoute from './Context/PrivateRoute';
 
 function App() {
   return (
