@@ -11,7 +11,7 @@ class Header extends Component {
         <nav className="navbar navbar-expand-lg nav-container fixed-top p-2">
           <div className="container-fluid">
             <div className="logo-container">
-              <img className="logo" src={logo} alt="" />
+              <img className="logo" src={logo} alt="" style={{borderRadius:'50%'}}/>
             </div>
 
             <button
